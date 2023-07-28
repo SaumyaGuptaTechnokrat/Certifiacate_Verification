@@ -7,12 +7,15 @@
 
 </head>
 <body>
-  <div style="position:absolute; left:45%; top:45%;">
-        <h1>Certificate Verification</h1>
-    <label for="certificateCode" class="form-label">Enter your certificate code:</label>
+  <div class="card" style="position:absolute; left:35%; top:35%;">
+        <div class="card-header">Certificate Verification</div>
+        <div class="card-body">
+            <label for="certificateCode" class="form-label">Enter your certificate code:</label>
     <input class="form-control" type="text" id="certificateCode">
+      <br/>
     <button class="btn btn-primary" onclick="verifyCertificate()">Verify</button>
     <p id="verificationResult"></p>
+        </div>
   </div>
 
     <script src="certificate_verification.js"></script>
